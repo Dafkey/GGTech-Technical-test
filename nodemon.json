@@ -1,0 +1,7 @@
+{
+    "execMap": {
+      "js": "node -r @babel/register"
+    },
+    "ext": "js,json"
+  }
+  
