@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 // MongoDB connection URL and options
-const url = "mongodb://127.0.0.1:27017/Netflix";
+const url = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/Netflix";
 const dbOptions = {
   useNewUrlParser: true,        // Use new URL parser
   useUnifiedTopology: true,     // Use new Server Discovery and Monitoring engine
